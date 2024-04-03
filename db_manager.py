@@ -15,3 +15,6 @@ app = Flask(__name__)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 bot = telebot.TeleBot(token)
+
+
+#test test test
